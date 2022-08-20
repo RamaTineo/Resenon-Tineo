@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shorcut icon" href="../img/Icon-Reseñon.png" />
+    <link rel="stylesheet" href="../css/styles.css" />
+    <title>Tu Reseña</title>
+  </head>
+
+  <body class="body">
+    <!--     HEADER     -->
+
+    <header class="header">
+      <div>
+        <a href="../index.html"
+          ><img src="../img/Icon-Reseñon.png" alt="ReseÑon" class="logo"
+        /></a>
+      </div>
+
+      <nav class="nav">
+        <div>
+          <ul class="menu">
+            <li><a href="../index.html">Inicio</a></li>
+            <li><a href="./resenPropias.html">Reseñas propias</a></li>
+            <li>
+              <a href="./resenComunidad.html">Reseñas de la comunidad</a>
+            </li>
+            <li><a href="./news.html">News</a></li>
+            <li><a href="./tusResen.html">Tus reseñas</a></li>
+          </ul>
+        </div>
+      </nav>
+      <section>
+        <div class="sesion">
+          <input type="button" name="Inciar sesion" value="Iniciar sesion" />
+        </div>
+
+        <div class="buscador">
+          <input type="search" placeholder="Busca en nuestro foro!" />
+        </div>
+      </section>
+    </header>
+
+    <!--     MAIN     -->
+    <main>
+      <div class="fondoForm">
+      <form action="#" method="get">
+        <section class="dataForm">
+          <h2>Dejanos tu reseña!</h2>
+          <input type="text" placeholder="Nick*" name="Nick" required />
+
+          <input type="number" placeholder="Edad" name="Edad" />
+
+          <input type="email" placeholder="Email*" name="Email" required />
+          <div>
+            <textarea
+              name="reseña"
+              placeholder="¿Que te gustaria compartir esta ocasion?"
+              class="textForm"
+            ></textarea>
+          </div>
+        </section>
+        <section class="confirmForm">
+          <div>
+            <label>Lei y acepte los terminos y condiciones.</label>
+            <input type="checkbox" name="Acepta" value="si" required />
+          </div>
+          <div class="uploadForm">
+            <p>Sube tu imagen o video!</p>
+            <input type="file" />
+          </div>
+          <div>
+            <input type="submit" value="Enviar reseña" />
+            <input type="reset" value="Borrar todo" />
+          </div>
+        </section>
+      </form>
+    </div>
+    </main>
+
+    <!--     FOOTER    -->
+
+  
+    <footer class="footer">
+      <div>
+        <ul class="redes">
+          <li>
+            <a href="https://twitter.com/" target="_blank">Twitter</a>
+          </li>
+          <li>
+            <a href="https://es-la.facebook.com/" target="_blank">Facebook</a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/" target="_blank">Instagram</a>
+          </li>
+          <li>
+            <a href="https://discord.com/" target="_blank">Discord</a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>
