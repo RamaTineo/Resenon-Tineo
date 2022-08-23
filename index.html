@@ -4,103 +4,94 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shorcut icon" href="./img/Icon-Reseñon.png" />
+    <link rel="shorcut icon" href="https://res.cloudinary.com/ramatineo/image/upload/v1661280404/Rese%C3%B1on/Icon-Rese%C3%B1on_wfl0qm.png" />
+<!---------------------- CSS BOOTSTRAP ---------------------->
+<!---------------------- CSS BOOTSTRAP ---------------------->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+<!---------------------- CSS PROPIO ---------------------->
+<!---------------------- CSS PROPIO ---------------------->
     <link rel="stylesheet" href="./css/styles.css" />
-    <title>ReseñON</title>
+    <title>ResenON</title>
   </head>
   <body class="body">
-    <!--     HEADER     -->
+    <!---------------------- HEADER ---------------------->
+    <!---------------------- HEADER ---------------------->
+<!------------------ NAV BOOTSTRAP  ------------------>
+<!------------------ NAV BOOTSTRAP  ------------------>
+    <header>
+      <nav class="navbar navbar-expand-lg ">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="./index.html"><img src="https://res.cloudinary.com/ramatineo/image/upload/v1661280404/Rese%C3%B1on/Icon-Rese%C3%B1on_wfl0qm.png" alt="ResenON"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="a-style" aria-current="page" href="./index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="a-style" aria-current="page" href="./pages/resenPropias.html">Reseñas propias</a>
+              </li>
+              <li class="nav-item">
+                <a class="a-style" aria-current="page" href="./pages/resenComunidad.html">Reseñas de la comunidad</a>
+              </li>
+              <li class="nav-item">
+                <a class="a-style"  aria-current="page" href="./pages/news.html">Noticias</a>
+              </li>
+              <li class="nav-item">
+                <a class="a-style" aria-current="page" href="./pages/tusResen.html">Sube tu reseña</a>
+              </li>
 
-    <header class="header">
-      <div>
-        <a href="./index.html"
-          ><img src="./img/Icon-Reseñon.png" alt="ReseÑon" class="logo"
-        /></a>
-      </div>
-
-      <nav>
-        <div>
-          <ul class="menu">
-            <li><a href="./index.html">Inicio</a></li>
-            <li><a href="./pages/resenPropias.html">Reseñas propias</a></li>
-            <li>
-              <a href="./pages/resenComunidad.html">Reseñas de la comunidad</a>
-            </li>
-            <li><a href="./pages/news.html">News</a></li>
-            <li><a href="./pages/tusResen.html">Tus reseñas</a></li>
-          </ul>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Buscar</button>
+            </form>
+          </div>
         </div>
       </nav>
-      <section>
-        <div>
-          <input type="button" name="Inciar sesion" value="Iniciar sesion" />
-        </div>
-        <div>
-          <input type="search" placeholder="Busca en nuestro foro!" />
-        </div>
-      </section>
     </header>
 
-    <!--     MAIN     -->
+     <!---------------------- MAIN ---------------------->
+    <!---------------------- MAIN ---------------------->
 
     <main class="main-index">
       <div class="container">
-        <div class="card1">
-          <img
-            src="https://i.imgur.com/Ql1oLQL.png"
-            alt="Wow classic"
-            class="cardImg"
-          />
-          <h2 class="cardTittle">Noticia WoW classic</h2>
-          <p class="cardP">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus,
-            maiores?
-          </p>
-          <input
-            type="button"
-            name="Leermas"
-            value="Leer más"
-            class="cardButtom"
-          />
+        <!------------------ Cards superiores ------------------>
+        <!------------------ Cards superiores ------------------>
+        <div class="card card1" style="width: 18rem;">
+          <img src="https://res.cloudinary.com/ramatineo/image/upload/v1661197859/Rese%C3%B1on/Ql1oLQL_dbvojd.png" class="card-img-top" alt="Wow classic">
+          <div class="card-body">
+            <h5 class="card-title">Noticia WoW classic</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus,
+              maiores?</p>
+            <a href="#" class="btn btn-primary">Leer más</a>
+          </div>
         </div>
-        <div class="card2">
-          <img
-            src="https://i.imgur.com/NcA4vlK.png"
-            alt="Wow Dragonflight"
-            class="cardImg"
-          />
-          <h2 class="cardTittle">Noticia WoW Dragonflight</h2>
-          <p class="cardP">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, est.
-          </p>
-          <input
-            type="button"
-            name="Leermas"
-            value="Leer más"
-            class="cardButtom"
-          />
+
+        <div class="card card2" style="width: 18rem;">
+          <img src="https://res.cloudinary.com/ramatineo/image/upload/v1661197863/Rese%C3%B1on/NcA4vlK_cwg6dj.png" class="card-img-top" alt="Wow Dragonflight">
+          <div class="card-body">
+            <h5 class="card-title">Noticia WoW Dragonflight</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, est.</p>
+            <a href="#" class="btn btn-primary">Leer más</a>
+          </div>
         </div>
-        <div class="card3">
-          <img
-            src="https://i.imgur.com/w6JMgv4.jpg"
-            alt="Rimworld"
-            class="cardImg"
-          />
-          <h2 class="cardTittle">Noticia Rimworld</h2>
-          <p class="cardP">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis,
-            amet.
-          </p>
-          <input
-            type="button"
-            name="Leermas"
-            value="Leer más"
-            class="cardButtom"
-          />
+
+        <div class="card card3" style="width: 18rem;">
+          <img src="https://res.cloudinary.com/ramatineo/image/upload/v1661197875/Rese%C3%B1on/w6JMgv4_zowtlk.jpg" class="card-img-top" alt="Rimworld">
+          <div class="card-body">
+            <h5 class="card-title">Noticia Rimworld</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, est.</p>
+            <a href="#" class="btn btn-primary">Leer más</a>
+          </div>
         </div>
+       
+        
         <div class="card4 cardPropMid">
           <img
-            src="https://i.imgur.com/8ckLEQA.png"
+            src="https://res.cloudinary.com/ramatineo/image/upload/v1661197833/Rese%C3%B1on/96OikHf_dvjw8k.png"
             alt="Crusaders Kings 3"
             class="resImg"
           />
@@ -120,7 +111,7 @@
         </div>
         <div class="card5">
           <img
-            src="https://i.imgur.com/h7vXSXl.jpg"
+            src="https://res.cloudinary.com/ramatineo/image/upload/v1661197869/Rese%C3%B1on/h7vXSXl_ymlfal.jpg"
             alt="Icono Wow"
             class="resImg"
           />
@@ -140,25 +131,44 @@
       </div>
     </main>
 
-    <!--     FOOTER    -->
-
+     <!---------------------- FOOTER ---------------------->
+      <!---------------------- FOOTER ---------------------->
     <footer class="footer">
       <div>
         <ul class="redes">
           <li>
-            <a href="https://twitter.com/" target="_blank">Twitter</a>
+            
+                <a class="navbar-brand" href="https://www.facebook.com/">
+                  <img src="https://res.cloudinary.com/ramatineo/image/upload/v1661199574/Rese%C3%B1on/icons/facebook_zoimrt.svg" alt="Facebook" width="30" height="24">
+                </a>
+              
           </li>
           <li>
-            <a href="https://es-la.facebook.com/" target="_blank">Facebook</a>
+            
+                <a class="navbar-brand" href="https://www.discord.com/">
+                  <img src="https://res.cloudinary.com/ramatineo/image/upload/v1661199574/Rese%C3%B1on/icons/discord_u3c1ub.svg" alt="Discrod" width="30" height="24">
+                </a>
+              
           </li>
           <li>
-            <a href="https://www.instagram.com/" target="_blank">Instagram</a>
+            
+                <a class="navbar-brand" href="https://www.twitter.com/">
+                  <img src="https://res.cloudinary.com/ramatineo/image/upload/v1661199567/Rese%C3%B1on/icons/twitter_mfcy3a.svg" alt="Twitter" width="30" height="24">
+                </a>
+             
           </li>
           <li>
-            <a href="https://discord.com/" target="_blank">Discord</a>
+            
+                <a class="navbar-brand" href="https://www.instagram.com/">
+                  <img src="https://res.cloudinary.com/ramatineo/image/upload/v1661199552/Rese%C3%B1on/icons/instagram_puq56r.svg" alt="Instagram" width="30" height="24">
+                </a>
+              
           </li>
         </ul>
       </div>
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+
   </body>
 </html>

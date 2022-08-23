@@ -13,34 +13,46 @@
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
-
-/* HEADER */
-.header {
-  background-color: #12151a;
-  display: flex;
-  justify-content: space-between;
-    align-items: center;
+/********************* BOOTSTRAP ********************/
+/********************* BOOTSTRAP ********************/
+.card{
+  background-color:#252a34;
+  border: none;
 }
-.logo{
-  width: 125px;
-  padding: 10px;
-}
-.menu{
-  list-style: none;
-  display: flex;
-}
-.menu li, .redes li{
-  padding: 5px;
-}
-.header a, .footer a{
-  color: white;
-  text-decoration: none;
-}
-.header a:hover, .footer a:hover{
-  color: #636870;
+.btn{
+  letter-spacing: 0.5px;
   font-weight: bold;
+  color: whitesmoke;
+  transition: 0.3s;
+  background-color: #1da504;
+  border: none;
 }
-/* FOOTER */
+.btn:hover{
+  background-color: #188305e7;
+}
+
+
+/********************** HEADER **********************/
+/********************** HEADER **********************/
+.navbar{background-color: #252a34;
+  border: 1px solid #454647;
+}
+
+.a-style{
+  font-weight: bold;
+  display: block;
+  margin: 0 1rem;
+  text-decoration: none;
+  color: whitesmoke;
+}
+.a-style:hover{
+  color: #a3a2a2;
+  transition: 0.3s;
+}
+
+/********************** FOOTER **********************/
+/********************** FOOTER **********************/
+
 .footer{
   background-color: #12151a;
   height: 50px;
@@ -52,7 +64,10 @@
   margin: 0 auto;
   justify-content: center;
 }
-/* MAIN INDEX */
+
+/********************** MAIN INDEX **********************/
+/********************** MAIN INDEX **********************/
+
 .body{
   background-color: #1a1d24;
 }
@@ -71,52 +86,16 @@
     "card4 card4 card4"
     "card5 card5 card5";
 }
-
 .card1 { grid-area: card1;}
 .card2 { grid-area: card2;}
 .card3 { grid-area: card3;}
-.card1, .card2, .card3{
-  display: flex;
-flex-direction: column;
-height: 35vh;
-margin: 5px;
-padding: 2px;
-}
-.cardImg{
-  height: 115px;
-}
-.cardButtom{
-  align-self: center;
-}
-
 .card4 { grid-area: card4;}
 .card5 { grid-area: card5;}
-.card4, .card5, .cardProp{
-  margin: 5px;
-padding: 2px;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
-  gap: 0px 0px;
-  grid-auto-flow: row;
-  grid-template-areas:
-    "resImg resTittle resTittle"
-    "resImg resP resP"
-    "resImg resButtom resButtom";
-    justify-items: center;
-    align-items: start;
-}
 
-.resTittle { grid-area: resTittle; }
-.resImg { grid-area: resImg;
-width: 33vw ;
-height: 35vh; 
-}
-.resP { grid-area: resP; }
-.resButtom { grid-area: resButtom; }
-.card5 { grid-area: card5; }
 
-/* MAIN resenPropias */
+/******************** MAIN resenPropias ********************/
+/******************** MAIN resenPropias ********************/
+
 .cardsProp{
   background-color: #252a34;
   color: whitesmoke;
@@ -130,7 +109,10 @@ flex-direction: column;
   border-top: 1px solid #1a1d24 ;
   border-bottom: 1px solid #1a1d24 ;
 }
-/* MAIN resenComunidad */
+
+/******************** MAIN resenComunidad ********************/
+/******************** MAIN resenComunidad ********************/
+
 .cardsComu{  background-color: #252a34;
   color: whitesmoke;
   margin: 10px;
@@ -153,7 +135,10 @@ flex-direction: column;
       justify-items: center;
       align-items: start;
 }
-/* MAIN TusResen */
+
+/******************** MAIN TusResen *******************/
+/******************** MAIN TusResen *******************/
+
 .fondoForm{
   background-color: #252a34;
   color: whitesmoke;
@@ -169,7 +154,9 @@ align-items: center;
   min-height: 35vh;
 }
 
-/* MAIN News */
+/******************** MAIN News ********************/
+/******************** MAIN News ********************/
+
 .container-news {  display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
@@ -217,7 +204,8 @@ align-items: center;
 
 
 
-
+/******************* MEDIAS *******************/
+/******************* MEDIAS *******************/
 
 @media (max-width:1050px){
   .container-news {  display: grid;
