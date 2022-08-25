@@ -31,7 +31,6 @@
   background-color: #188305e7;
 }
 
-
 /********************** HEADER **********************/
 /********************** HEADER **********************/
 .navbar{background-color: #252a34;
@@ -77,7 +76,8 @@
   display: grid;
   margin: 10px;
   border-radius: 15px;
-  grid-template-columns: 1fr 1fr 1fr;
+  }
+  /* grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
   gap: 0px 0px;
   grid-auto-flow: row;
@@ -91,7 +91,7 @@
 .card3 { grid-area: card3;}
 .card4 { grid-area: card4;}
 .card5 { grid-area: card5;}
-
+ */
 
 /******************** MAIN resenPropias ********************/
 /******************** MAIN resenPropias ********************/
@@ -207,7 +207,7 @@ align-items: center;
 /******************* MEDIAS *******************/
 /******************* MEDIAS *******************/
 
-@media (max-width:1050px){
+/* @media (max-width:1050px){
   .container-news {  display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
@@ -257,4 +257,4 @@ align-items: center;
   .resImg{
     width: 100%;
   }
-}
+} */
