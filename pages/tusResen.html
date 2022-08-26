@@ -64,38 +64,70 @@
   <!---------------------- MAIN ---------------------->
   <!---------------------- MAIN ---------------------->
 
-  <main>
-    <div class="fondoForm">
-      <form action="#" method="get">
-        <section class="dataForm">
-          <h2>Dejanos tu reseña!</h2>
-          <input type="text" placeholder="Nick*" name="Nick" required />
+  <main class="main-form">
+    <form class="row g-3 needs-validation" novalidate>
+      <div class="col-md-4">
+        <label for="validationCustom01" class="form-label">Nombre</label>
+        <input type="text" class="form-control" id="validationCustom01" value="Nombre" required>
 
-          <input type="number" placeholder="Edad" name="Edad" />
+      </div>
 
-          <input type="email" placeholder="Email*" name="Email" required />
-          <div>
-            <textarea name="reseña" placeholder="¿Que te gustaria compartir esta ocasion?" class="textForm"></textarea>
+      <div class="col-md-4">
+        <label for="validationCustomUsername" class="form-label">Nick</label>
+        <div class="input-group has-validation">
+          <span class="input-group-text" id="inputGroupPrepend">@</span>
+          <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" value="TuNick" required>
+          <div class="invalid-feedback">
+            Por favor, ingresa tu nick.
           </div>
-        </section>
-        <section class="confirmForm">
-          <div>
-            <label>Lei y acepte los terminos y condiciones.</label>
-            <input type="checkbox" name="Acepta" value="si" required />
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <label for="validationCustom03" class="form-label">Email</label>
+        <input type="email" class="form-control" id="validationCustom03" value="ejemplo@correo.com" required>
+        <div class="invalid-feedback">
+          Por favor, ingresa un email valido.
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <label for="validationCustom01" class="form-label">Titulo</label>
+        <input type="text" class="form-control" id="validationCustom01" value="Titulo" required>
+        <div class="valid-feedback">
+          Buen titulo!
+        </div>
+      </div>
+ 
+      <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label">Dejanos tu reseña!</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="12"></textarea>
+      </div>
+
+      <div class="mb-3">
+        <label for="formFile" class="form-label">Imagen principal</label>
+        <input class="form-control" type="file" id="formFile">
+      </div>
+
+      
+      <div class="col-12">
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+          <label class="form-check-label" for="invalidCheck">
+            Acepto los terminos y condiciones.
+          </label>
+          <div class="invalid-feedback">
+           Debes aceptar los terminos y condiciones.
           </div>
-          <div class="uploadForm">
-            <p>Sube tu imagen o video!</p>
-            <input type="file" />
-          </div>
-          <div>
-            <input type="submit" value="Enviar reseña" />
-            <input type="reset" value="Borrar todo" />
-          </div>
-        </section>
-      </form>
-    </div>
+        </div>
+      </div>
+
+      <div class="col-12">
+        <button class="btn btn-primary" type="submit">Enviar reseña</button>
+      </div>
+    </form>
+
   </main>
-
   <!---------------------- FOOTER ---------------------->
   <!---------------------- FOOTER ---------------------->
   <footer class="footer">
