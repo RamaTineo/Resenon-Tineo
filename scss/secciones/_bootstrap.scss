@@ -1,0 +1,20 @@
+.card {
+    background-color: #252a34;
+    border: none;
+    .btn {
+        letter-spacing: 0.5px;
+        font-weight: bold;
+        color: whitesmoke;
+        transition: 0.3s;
+        background-color: #1da504;
+        border: none;
+        &:hover {
+            background-color: #188305e7;
+          }
+      }
+      
+      .card-title {
+          color: #39d31e;
+      }
+  }
+  
