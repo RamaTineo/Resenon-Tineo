@@ -1,0 +1,19 @@
+-Keywords:
+
+Index: Resenon, reseñas, videojuegos, noticias, actualidad
+News: Resenon, videojuegos, noticias, actualidad, WoW
+ResenComunidad: Resenon, reseñas, videojuegos, opinion
+ResenPropias: Resenon, reseñas, videojuegos, expertos
+TusResen: Resenon, reseñas, videojuegos, escribir, opinar
+
+
+
+-Description:
+
+Index: "Bienvenid@ a ResenON, la pagina de reseñas creada para aprender a programar!"
+News: "Lee las noticias de videojuegos más actuales!"
+ResenComunidad: "Lee las reseñas de miles de jugadores!"
+ResenPropias: "Lee las reseñas de veteranos de los videojuegos!"
+TusResen: "Comparte tu reseña de videojuegos con el mundo!"
+
+-Se aplico un h1 en todas las pages.
