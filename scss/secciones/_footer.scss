@@ -18,5 +18,10 @@
   .fa-instagram,
   .fa-facebook {
     font-size: 2rem;
+    &:hover{
+      color: whitesmoke;
+      transition: 0.5s;
+    }
   }
+
 }

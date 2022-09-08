@@ -50,6 +50,17 @@
     .navbar .container-fluid {
       flex-direction: column;
     }
+    .main-index{
+      .card-img-top{
+        max-width: 40vw;
+    }
+  }
+  .main-prop{
+    .card-img-top{
+      max-width: 40vw;
+  }
+}
+
   }
   
   /* X-Large devices (large desktops, 1200px and up) */
@@ -65,4 +76,4 @@
       width: 25rem;
       
     }
-  }
+}

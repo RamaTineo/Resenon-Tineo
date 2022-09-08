@@ -115,6 +115,12 @@
   .footer .fa-instagram,
   .footer .fa-facebook {
     font-size: 2rem; }
+    .footer .fa-discord:hover,
+    .footer .fa-twitter:hover,
+    .footer .fa-instagram:hover,
+    .footer .fa-facebook:hover {
+      color: whitesmoke;
+      transition: 0.5s; }
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
@@ -154,7 +160,11 @@
   .cards-news .card {
     padding: 1rem; }
   .navbar .container-fluid {
-    flex-direction: column; } }
+    flex-direction: column; }
+  .main-index .card-img-top {
+    max-width: 40vw; }
+  .main-prop .card-img-top {
+    max-width: 40vw; } }
 
 /* X-Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
