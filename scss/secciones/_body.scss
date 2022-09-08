@@ -1,27 +1,28 @@
-
 .body {
-    background-color: #1a1d24;
-  }
-  .main-index,
-  .main-prop,
-  .main-news,
-  .main-form {
-    background-color: #252a34;
-    color: whitesmoke;
-    margin: 15px;
-    border-radius: 15px;
-  }
-  
-  .cards-top,
-  .cards-news {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  .byComu {
-    color: #7e8ba0;
-  }
-  .main-form {
-    padding: 1rem;
-  }
-  
+  background-color: #1a1d24;
+}
+.main-index {
+  @include estilobox(3vw);
+}
+.main-prop {
+  @include estilobox(3vw);
+}
+.main-news {
+  @include estilobox(5vw);
+}
+.main-form {
+  @include estilobox(3vw);
+}
+
+.cards-top,
+.cards-news {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.byComu {
+  color: #7e8ba0;
+}
+.main-form {
+  padding: 1rem;
+}
