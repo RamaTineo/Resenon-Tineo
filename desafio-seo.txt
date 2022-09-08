@@ -1,7 +1,7 @@
 -Keywords:
 
 Index: Resenon, reseñas, videojuegos, noticias, actualidad
-News: Resenon, videojuegos, noticias, actualidad, WoW
+News: Resenon, videojuegos, noticias, actualidad, informacion
 ResenComunidad: Resenon, reseñas, videojuegos, opinion
 ResenPropias: Resenon, reseñas, videojuegos, expertos
 TusResen: Resenon, reseñas, videojuegos, escribir, opinar
