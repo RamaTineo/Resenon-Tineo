@@ -94,6 +94,10 @@
 .main-form {
   padding: 1rem; }
 
+.oculto {
+  display: none;
+  z-index: -10; }
+
 .footer {
   background-color: #12151a;
   height: 50px; }
