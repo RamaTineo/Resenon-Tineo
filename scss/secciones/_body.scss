@@ -13,6 +13,22 @@
 }
 .main-form {
   @include estilobox(3vw);
+  
+  .btn {
+    letter-spacing: 0.5px;
+    font-weight: bold;
+    color: whitesmoke;
+    transition: 0.3s;
+    background-color: #1da504;
+    border: none;
+    &:hover {
+        background-color: #188305e7;
+      }
+  }
+  .form-range{
+    width: 65vw;
+    display: block;
+  }
 }
 
 .cards-top,

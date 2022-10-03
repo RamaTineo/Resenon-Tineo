@@ -31,6 +31,9 @@
     }
     .main-form {
       min-height: 54rem;
+      .form__input-size{
+        max-width: 50vw;
+      }
     }
   }
   /* Large devices (desktops, 992px and up) */
@@ -59,9 +62,18 @@
     .card-img-top{
       max-width: 40vw;
   }
+  .card-reverse{
+    flex-direction: row-reverse;
+  }
 }
 
+.form__text-size{
+    max-width: 75vw
+  
   }
+}
+
+  
   
   /* X-Large devices (large desktops, 1200px and up) */
   @media (min-width: 1200px) {

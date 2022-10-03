@@ -80,6 +80,18 @@
   color: whitesmoke;
   margin: 3vw;
   border-radius: 15px; }
+  .main-form .btn {
+    letter-spacing: 0.5px;
+    font-weight: bold;
+    color: whitesmoke;
+    transition: 0.3s;
+    background-color: #1da504;
+    border: none; }
+    .main-form .btn:hover {
+      background-color: #188305e7; }
+  .main-form .form-range {
+    width: 65vw;
+    display: block; }
 
 .cards-top,
 .cards-news {
@@ -146,7 +158,9 @@
     padding: 1rem;
     border-top: #1a1d24 solid 1px; }
   .main-form {
-    min-height: 54rem; } }
+    min-height: 54rem; }
+    .main-form .form__input-size {
+      max-width: 50vw; } }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
@@ -163,7 +177,11 @@
   .main-index .card-img-top {
     max-width: 40vw; }
   .main-prop .card-img-top {
-    max-width: 40vw; } }
+    max-width: 40vw; }
+  .main-prop .card-reverse {
+    flex-direction: row-reverse; }
+  .form__text-size {
+    max-width: 75vw; } }
 
 /* X-Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
